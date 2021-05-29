@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/index_style.css">
+    <title>Doggos</title>
+</head>
+<body>
+    <header>
+        <nav class="navlinks">
+            <a href="#" id="openmenu">HOME</a>
+            <a href=#>DOG BREEDS</a>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>
+    <main>
+        <div class="welcomecard card" data-aos="fade-up" data-aos-duration="1000">
+            <h2>Welcome to petstore</h2>
+            <div id="welcome">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quis perferendis atque ipsa, ipsum ad obcaecati officia voluptates itaque quibusdam voluptate distinctio consequatur dolor possimus voluptas, blanditiis assumenda error nemo minus quasi animi ea! Aliquid et voluptatem nesciunt non corporis beatae quis. Reiciendis eos natus ad saepe quasi magni mollitia, possimus enim veniam quam voluptates dicta delectus officia dolorum labore quis. Nesciunt unde recusandae explicabo tempora rem cum laborum placeat, ut quas, eligendi architecto dolorum nostrum mollitia, corrupti sunt inventore eius vel neque quasi fugiat qui earum quaerat accusamus</div>
+        </div>
+        <div class="explore card">
+            <div class="dogimgs">
+                <img alt="not working" src="static/images/doggie.jpeg">
+                <img alt="not working" src="static/images/doggie.jpeg">
+                <img alt="not working" src="static/images/doggie.jpeg">
+            </div>
+            <button id="explorebutton">Explore!</button>
+        </div>
+        <div class="reviews card">
+            <h2>Reviews</h2>
+            <hr>
+            <div class="comments">
+
+            </div>
+            <input type="text" placeholder="Name" id='name'><br>
+            <input type="text" placeholder="Email address" id='email'><br>
+            <input type="text" placeholder="Review" id='review'><br>
+            <div class="submit-result"></div>
+            <span class="fa fa-star s1"></span>
+            <span class="fa fa-star s2"></span>
+            <span class="fa fa-star s3"></span>
+            <span class="fa fa-star s4"></span>
+            <span class="fa fa-star s5"></span><br>
+            <button id="submitreview">Submit</button>
+        </div>
+    </main>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-database.js"></script>
+    <script src="static/js/index.js"></script>
+</body>
+</html>
